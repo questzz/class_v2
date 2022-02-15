@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+        자식 뷰 입장에서 부모 뷰 기준으로 정렬을 요청할 수 있다.
+        layout_ 부모 뷰 기준으로 정렬을 해 주는 속성
+        차이점 !!! 확인하기 !!
+        layout_gravity
+        gravity
+    -->
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+
+
+</FrameLayout>
